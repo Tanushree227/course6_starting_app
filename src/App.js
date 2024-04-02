@@ -1,6 +1,8 @@
 function App() {
   return (
-    <div>Course 6 Starting App</div>
+    <div>
+      <h1>Course 6 Starting App</h1>
+    </div>
   );
 }
 
