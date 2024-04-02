@@ -32,9 +32,12 @@ function App() {
     return <li>{text}</li>
   })
   return (
-    <div className="bg-slate-800 text-white">
-      <h1 className="text-center font-bold">Course 6 Starting App</h1>
+    <div className="mx-36 mt-12">
+      <h1 className="bg-slate-800 text-white text-center font-bold text-3xl">Course 6 Starting App</h1>
+      <div className="shadow-lg shadow-slate-300  p-10">
+      <p className="text-xl">Rendering Lists in React:</p>
       <ul>{items}</ul>
+      </div>
     </div>
   );
 }
