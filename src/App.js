@@ -1,4 +1,5 @@
 import Form from "./components/Form";
+import ReactContext from "./components/ReactContext";
 
 const fast_food = [
   {
@@ -41,6 +42,7 @@ function App() {
       <ul>{items}</ul>
       </div>
       <Form />
+      <ReactContext />
     </div>
   );
 }
