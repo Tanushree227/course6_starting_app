@@ -1,3 +1,5 @@
+import Form from "./components/Form";
+
 const fast_food = [
   {
     id: '1',
@@ -34,10 +36,11 @@ function App() {
   return (
     <div className="mx-36 mt-12">
       <h1 className="bg-slate-800 text-white text-center font-bold text-3xl">Course 6 Starting App</h1>
-      <div className="shadow-lg shadow-slate-300  p-10">
+      <div className="mt-5 shadow-lg shadow-slate-300  p-10">
       <p className="text-xl">Rendering Lists in React:</p>
       <ul>{items}</ul>
       </div>
+      <Form />
     </div>
   );
 }
