@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Week2() {
   return (
-    <div className='my-10 shadow-lg p-5 bg-gray-400'>
+    <div className='my-10 shadow-lg p-5 bg-gray-400 text-white'>
         <h1 className='text-3xl font-bold text-pretty text-center'>Week 2: Getting Started with Hook</h1>
         <div className='px-10'>
             <p className='text-center text-3xl'>useState Hook</p>

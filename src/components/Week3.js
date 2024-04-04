@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Week3() {
   return (
-    <div className='shadow-lg p-5 bg-slate-200'>
+    <div className='mb-10 shadow-lg p-5 bg-slate-200'>
         <h1 className='text-3xl font-medium text-pretty text-center'>Week 3: JSX and Testing</h1>
         <div>
             <h3 className='text-lg font-medium'>JSX, Components and Elements</h3>
