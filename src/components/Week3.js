@@ -10,6 +10,9 @@ export default function Week3() {
             <p><strong>Components: </strong>Components are like functions that return HTML elements. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.</p>
             <p><strong>Elements: </strong>It is the basic building block in a react application, it is an object representation of a virtual DOM node. React Element contains both type and property. It may contain other Elements in its props. React Element does not have any methods, making it light and faster to render than components.</p>
         </div>
+        <div>
+          <h3 className='text-lg font-medium'>Testing</h3>
+        </div>
     </div>
   )
 }
